@@ -6,6 +6,11 @@ function createElement(tag, content, className) {
     element.classList.add(className);
     element.append(content);
 
+      //Event listener che aggiunge un evento click a ogni div creato
+      element.addEventListener('click', function() {
+        console.log(this.textContent);
+    });
+
     return element;
 }
 
