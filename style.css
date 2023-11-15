@@ -7,7 +7,6 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: aliceblue;
     height: 100vh;
 }
 
@@ -22,12 +21,15 @@ main {
 
 header,
 footer {
-    background-color:red ;
     padding: 20px;  
 }
 
+button {
+    border-radius: 5px;
+    padding: 2px 4px;
+}
+
 .gameboard {
-    background-color: brown;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -36,7 +38,6 @@ footer {
 }
 
 .cell {
-    background-color: chartreuse;
     border: solid 1px black;
     width: calc(100% / 10);
     height: calc(100% /10);
@@ -44,7 +45,7 @@ footer {
 }
 
 .clickcolor {
-    background-color: darkorchid;
+    background-color: white;
 }
 
 .head-nav {
