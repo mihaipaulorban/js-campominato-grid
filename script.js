@@ -19,6 +19,8 @@ function createElement(tag, content, className, classNameAdd) {
 
 // PROGRAMMA
 
+const start = document.querySelector('.start');
+
 // Seleziono il div gameboard
 const board = document.querySelector('.gameboard');
 
@@ -29,3 +31,11 @@ for (i = 1; i <= 100; i++){
 
 
 }
+
+
+start.addEventListener('click', function() {
+
+    // Leva la classe hide e aggiunge la classe show
+    board.classList.add('show');
+    board.classList.remove('hide');
+});

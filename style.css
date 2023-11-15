@@ -17,6 +17,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 0;
 }
 
 header,
@@ -44,4 +45,27 @@ footer {
 
 .clickcolor {
     background-color: darkorchid;
+}
+
+.head-nav {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.el-cont {
+    display: flex;
+    align-items: center;
+}
+
+.el-cont h1 {
+    margin-left: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex;
 }
